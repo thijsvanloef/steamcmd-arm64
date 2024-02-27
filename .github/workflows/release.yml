@@ -34,7 +34,6 @@ jobs:
         with:
           images: |
             ${{ github.repository }}
-            ghcr.io/${{ github.repository }}
           # generate Docker tags based on the following events/attributes
           tags: |
             type=raw,value=steam
